@@ -1,1 +1,40 @@
 /* Studios Sluisstraat thema */
+
+
+@font-face {
+    font-family: raleway;
+    src: url( /wp-content/themes/sss/fonts/raleway/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: amatic;
+    src: url( /wp-content/themes/sss/fonts/amatic/AmaticSC-Regular.ttf);
+}
+h1,h2,h3,h4,h5,h6 { font-family: amatic; }
+h1 { color: #666; font-size: 81pt;  margin: 0;}
+html {
+    font-family: raleway, Arial, Helvetica, sans-serif;  
+}
+body {
+    background: #f0f0f0;
+}
+header {
+    background: url( /wp-content/themes/sss/images/header.png ) no-repeat;
+
+    padding-top: 210px;
+    text-align: center;
+}
+.main {
+    box-sizing: border-box;
+    max-width: 800px;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.entry-content {
+    line-height: 1.3em;
+    
+    padding: 0 160px;
+    
+}

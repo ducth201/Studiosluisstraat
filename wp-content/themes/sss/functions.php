@@ -1,5 +1,15 @@
 <?php
 
+function add_css() {
+    wp_enqueue_style(
+        'style-css',
+        get_stylesheet_uri(),
+        []
+    );
+}
+
+add_action( 'wp_enqueue_scripts', 'add_css' );
+
 function myblocks_myheader_block_init() {
 	/**
 	 * Registers the block(s) metadata from the `blocks-manifest.php` and registers the block type(s)
