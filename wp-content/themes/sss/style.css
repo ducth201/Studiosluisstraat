@@ -61,6 +61,12 @@ header {
 .main strong {
     color: #333;
 }
+
+.forminator-guttenberg {
+    margin-top: 60px;
+}
+
+
 .entry-content {
     line-height: 1.3em;
     padding: 0 160px;
@@ -73,6 +79,7 @@ footer {
     justify-content: space-between;
     padding: 30px;
     margin-top: 60px;
+    font-size: 80%;
 }
 footer a {
     text-decoration: none;
