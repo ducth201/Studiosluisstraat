@@ -40,8 +40,7 @@ header {
     margin: 0 auto;
 }
 .top-header a {
-    color: #90b7df;
-    
+    color: #4989cb;
 }
 .top-header > div {
     display: flex;
@@ -68,7 +67,7 @@ header {
     line-height: 1.5em;
 }
 footer {
-    background-color: #809963;
+    background-color: #688e3b;
     color: #fff;
     padding: 30px;
     margin-top: 60px;
@@ -77,14 +76,19 @@ footer {
 footer a {
     color: #fff;
 }
+footer span {
+    display: block;
+}
 
 /* mobile */
 header h1 { 
     font-size: calc( 70vw / 4 );  
-    margin: calc( ( 70vw / 4 ) + 20px ) 0 0 0; }
+    margin: calc( ( 70vw / 4 ) + 20px ) 0 0 0; 
+    white-space: nowrap;
+}
 header h2 { 
-    font-size: calc( 70vw / 8 );  
-    margin: -20px 0 20px 0;
+    font-size: calc( 70vw / 6 );  
+    margin: calc( -5vw ) 0 20px 0;
 }
 .entry-content {
     padding: 0 20px;
@@ -92,7 +96,7 @@ header h2 {
 }
 /* tablet */
 @media only screen and ( min-width: 480px ) {
-    header h1 { font-size: 62pt;  margin: calc( 25% ) 0 0 0;}
+    header h1 { font-size: 62pt;  margin: calc( 26vw - 15px  ) 0 0 0;}
     header h2 { font-size: 31pt;  margin: -20px 0 40px 0;}
     .entry-content {
         padding: 0 8%;
@@ -116,18 +120,16 @@ header h2 {
         border-left: solid 1px #ccc;
         border-right: solid 1px #ccc;
     }
-    body.scrolled .top-header > div {   
-        border-left-color: #90b7df;
-        border-right-color: #90b7df;
-        background: #90b7df;
-
-    }
     .top-header a {
         margin: 0 20px;
-        color: #90b7df;
     }
     body.scrolled .top-header {
-        background: #90b7df;    
+        background: #90b7df;
+        background: #4989cb;
+    }
+    body.scrolled .top-header > div {   
+        border: none;
+        background: #4989cb;
     }
     body.scrolled .top-header a {
         color: #fff;
@@ -155,9 +157,6 @@ header h2 {
         margin-top: 60px;
         display: flex;
         justify-content: space-between;
-    }
-    footer span {
-        display: block;
     }
     footer div:nth-child(2) {
         text-align: right
