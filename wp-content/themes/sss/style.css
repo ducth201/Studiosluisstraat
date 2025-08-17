@@ -59,7 +59,7 @@ header {
     min-height: 100vh;
     background: #fff;
 }
-.main strong {
+.entry-content strong {
     color: #333;
 }
 
@@ -100,7 +100,7 @@ header h2 {
     header h2 { font-size: 31pt;  margin: -20px 0 40px 0;}
     .entry-content {
         padding: 0 8%;
-        font-size: 100%;    
+        font-size: 100%;
     }
 }
 /* desktop */
@@ -128,7 +128,7 @@ header h2 {
         background: #4989cb;
     }
     body.scrolled .top-header > div {   
-        border: none;
+        border-color: #4989cb;
         background: #4989cb;
     }
     body.scrolled .top-header a {
@@ -143,14 +143,15 @@ header h2 {
         border-right: solid 1px #ccc;
         margin: 0 auto;
     }
-    .main strong {
+    .entry-content {
+        padding: 0 150px;
+        font-size: 100%;
+    }
+    .entry-content strong {
         color: #333;
     }
     .forminator-guttenberg {
         margin-top: 60px;
-    }
-    .entry-content {
-        padding: 0 160px;
     }
     footer {
         padding: 30px;

@@ -5,7 +5,7 @@
 ?>
 <footer>
 	<div>
-		<span>Studio Sluisstraat</span>	
+		<span><strong>Studio Sluisstraat</strong></span>
 		<span>E-mail: <a href="mailto:info@studiosluisstraat.nl">info@studiosluisstraat.nl</a></span>
 		<span>Telefoon: <a href="tel:+31642070591">+31642070591</a></span>
 	</div>
