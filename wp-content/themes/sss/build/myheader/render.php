@@ -4,6 +4,6 @@
  */
 ?>
 <header class="site-header">
-	<h1>Studio sluisstraat</h1>
+	<h1>Studio Sluisstraat</h1>
 	<h2>webdevelopment</h2>
 </header>

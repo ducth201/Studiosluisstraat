@@ -15,6 +15,6 @@
 		<span>KvK: 55873898</span>
 		<span>BTW: NL 188408174B02</span>
 		<span>&nbsp;</span>
-		<span><a href="https://nl.linkedin.com/in/bator">Linkedin</a></span>
+		<span><a href="https://nl.linkedin.com/in/bator" target="_blank">Linkedin</a></span>
 	</div>
 </footer>
